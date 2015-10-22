@@ -1,0 +1,45 @@
+body{
+	background-color: pink;
+}
+#sun{
+	fill:orange;
+	stroke:"#000000";
+	stroke-miterlimit:"10";
+	cx:"329.1";
+	cy:"116.5";
+	r:"28.7";
+}
+
+
+#sun:hover {
+	fill:red;
+	animation: enlarge 10s infinite;
+	-webkit-animation: enlarge 10s infinite;
+}
+@-webkit-keyframes enlarge {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.9);
+	}
+}
+
+@keyframes enlarge {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.9);
+	}
+}
+#flower{
+	fill:red;
+}
+
+///TRY SBG ANIMATIONS
+
+
+
+
+
